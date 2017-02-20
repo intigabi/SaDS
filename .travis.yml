@@ -2,8 +2,8 @@
 language: cpp
 # Compiler selection
 compiler:
-	- g++
+- g++
 # Build steps
 script:
-	- cd HW1
-	- make
+- cd HW1
+- make
