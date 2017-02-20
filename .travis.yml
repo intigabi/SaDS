@@ -7,4 +7,3 @@ compiler:
 script:
 - cd HW1
 - make
-- ./goto
