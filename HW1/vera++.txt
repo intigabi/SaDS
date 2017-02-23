@@ -1,0 +1,103 @@
+goto.cpp:1: no copyright notice found
+goto.cpp:11: horizontal tab used
+goto.cpp:12: closing curly bracket not in the same line or column
+goto.cpp:15: horizontal tab used
+goto.cpp:16: closing curly bracket not in the same line or column
+goto.cpp:19: horizontal tab used
+goto.cpp:20: closing curly bracket not in the same line or column
+goto.cpp:23: horizontal tab used
+goto.cpp:24: horizontal tab used
+goto.cpp:24: keyword 'if' not followed by a single space
+goto.cpp:25: horizontal tab used
+goto.cpp:25: full block {} expected in the control structure
+goto.cpp:26: horizontal tab used
+goto.cpp:26: keyword 'if' not followed by a single space
+goto.cpp:27: horizontal tab used
+goto.cpp:27: full block {} expected in the control structure
+goto.cpp:28: horizontal tab used
+goto.cpp:29: horizontal tab used
+goto.cpp:29: keyword 'if' not followed by a single space
+goto.cpp:30: horizontal tab used
+goto.cpp:30: full block {} expected in the control structure
+goto.cpp:32: horizontal tab used
+goto.cpp:34: horizontal tab used
+goto.cpp:35: closing curly bracket not in the same line or column
+goto.cpp:38: horizontal tab used
+goto.cpp:39: horizontal tab used
+goto.cpp:40: horizontal tab used
+goto.cpp:41: horizontal tab used
+goto.cpp:42: horizontal tab used
+goto.cpp:42: keyword 'if' not followed by a single space
+goto.cpp:43: horizontal tab used
+goto.cpp:44: horizontal tab used
+goto.cpp:45: horizontal tab used
+goto.cpp:45: closing curly bracket not in the same line or column
+goto.cpp:47: horizontal tab used
+goto.cpp:48: horizontal tab used
+goto.cpp:49: horizontal tab used
+goto.cpp:50: horizontal tab used
+goto.cpp:50: keyword 'if' not followed by a single space
+goto.cpp:51: horizontal tab used
+goto.cpp:52: horizontal tab used
+goto.cpp:53: horizontal tab used
+goto.cpp:53: closing curly bracket not in the same line or column
+goto.cpp:55: horizontal tab used
+goto.cpp:56: horizontal tab used
+goto.cpp:57: horizontal tab used
+goto.cpp:58: horizontal tab used
+goto.cpp:58: keyword 'if' not followed by a single space
+goto.cpp:59: horizontal tab used
+goto.cpp:60: horizontal tab used
+goto.cpp:61: horizontal tab used
+goto.cpp:61: closing curly bracket not in the same line or column
+goto.cpp:63: horizontal tab used
+goto.cpp:64: horizontal tab used
+goto.cpp:65: horizontal tab used
+goto.cpp:66: horizontal tab used
+goto.cpp:66: keyword 'if' not followed by a single space
+goto.cpp:67: horizontal tab used
+goto.cpp:68: horizontal tab used
+goto.cpp:69: horizontal tab used
+goto.cpp:69: closing curly bracket not in the same line or column
+goto.cpp:71: horizontal tab used
+goto.cpp:72: horizontal tab used
+goto.cpp:73: horizontal tab used
+goto.cpp:74: horizontal tab used
+goto.cpp:74: keyword 'if' not followed by a single space
+goto.cpp:75: horizontal tab used
+goto.cpp:76: horizontal tab used
+goto.cpp:77: horizontal tab used
+goto.cpp:77: closing curly bracket not in the same line or column
+goto.cpp:79: horizontal tab used
+goto.cpp:80: horizontal tab used
+goto.cpp:81: horizontal tab used
+goto.cpp:82: horizontal tab used
+goto.cpp:82: keyword 'if' not followed by a single space
+goto.cpp:83: horizontal tab used
+goto.cpp:84: horizontal tab used
+goto.cpp:85: horizontal tab used
+goto.cpp:85: closing curly bracket not in the same line or column
+goto.cpp:87: horizontal tab used
+goto.cpp:88: horizontal tab used
+goto.cpp:89: horizontal tab used
+goto.cpp:90: horizontal tab used
+goto.cpp:90: keyword 'if' not followed by a single space
+goto.cpp:91: horizontal tab used
+goto.cpp:92: horizontal tab used
+goto.cpp:93: horizontal tab used
+goto.cpp:93: closing curly bracket not in the same line or column
+goto.cpp:95: horizontal tab used
+goto.cpp:96: horizontal tab used
+goto.cpp:97: horizontal tab used
+goto.cpp:98: horizontal tab used
+goto.cpp:98: keyword 'if' not followed by a single space
+goto.cpp:99: horizontal tab used
+goto.cpp:100: horizontal tab used
+goto.cpp:101: horizontal tab used
+goto.cpp:101: closing curly bracket not in the same line or column
+goto.cpp:103: horizontal tab used
+goto.cpp:105: closing curly bracket not in the same line or column
+goto.cpp:108: horizontal tab used
+goto.cpp:109: horizontal tab used
+goto.cpp:110: no newline at end of file
+goto.cpp:110: closing curly bracket not in the same line or column

@@ -1,0 +1,7 @@
+- the file goto.cpp contains the transcribed code of the faulty function in C++
+- goto.cpp unit tests the faulty function
+- The image travis.png contains the proof that a test is automaitcally run on every push
+- codecoverage.png contains screenshot of a code coverage tool run over the unit test code to see if lines are executed
+- The image unreachable.PNG contains the result of the static code analysis tool used on my program
+- The file vera++.txt contains the results for the code style checker set up to use with my program.
+	- its better if open with wordpad or something else than notepade since notepad doesnt break lines
