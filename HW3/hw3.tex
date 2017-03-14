@@ -1,0 +1,54 @@
+\documentclass[11pt]{article}
+
+\usepackage[a3paper,top=3cm,bottom=3cm,left=3cm,right=3cm]{geometry}
+\usepackage{parskip}		%% blank lines between paragraphs, no indent
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+\begin{document}
+
+\huge \textbf{SaDS HW 3} 
+\large \hfill Inti Mendoza \\
+
+\section*{Problem 3.1} See src folder
+
+\section*{Problem 3.2} in C++: \\ $int\text{ }dec(x) \{\\\tab if(x\text{ }==\text{ }0)\text{ }return\text{ }x;\\\tab return\text{ }dec(x-1);\\\}$\\
+
+$\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab$\checkmark$\tab$\checkmark$\tab\tab$\checkmark$\hspace{6}$ (\text{rule for fct appli.) }\checkmark\\
+$\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab$\overline{x: int \in \Gamma}$\hspace{2}$\overline{\Gamma \vdash x:int}\text{ }\overline{\Gamma \vdash x:int}$\hspace{2}$\overline{dec: int \rightarrow int \in \Gamma}\\
+$\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab$\checkmark$\tab\tab$\checkmark$\tab$\overline{\Gamma \vdash x: int}$\tab$\overline{x-1: int}$\tab$\overline{\Gamma \vdash dec: int \rightarrow int}\\
+$\tab$ \checkmark$\tab\tab$\checkmark$\tab$(\text{rule for base types }) \checkmark$\tab\tab$\overline{\Gamma \vdash 0: int}\text{ }\overline{\Gamma \vdash 1: int}\text{ }\overline{\Gamma \vdash x == 0: bool}\text{ }\overline{\Gamma \vdash dec(x-1)}\\
+\overline{\vdash int: type}\text{ }\overline{\vdash int: type}$\tab$\overline{dec: int \rightarrow int \Rightarrow int: type}\text{ } \overline{\Gamma\text{ }\vdash if (x = 0) \{ 0\} else \{ dec(x-1)\}}\\
+\overline{\vdash int \rightarrow int: type}\text{$\tab$}\overline{dec: int \rightarrow int = (x:int) \mapsto if(x = 0)\text{ }\{ 0\}\text{ } else\text{ }\{ dec(x-1)\}: int \rightarrow int}\\
+\overline{\vdash (dec: int \rightarrow int = (x:int)) \mapsto if(x = 0) \{ 0\}\text{ }else\text{ }\{ dec(x-1)\}}]\\
+
+in C++\\ $int dec(x) \{\\ \tab while(x > 0) \{\\\tab\tab x = x - 1;\\\tab \}\\\tab return\text{ }0;\\\}$\\
+
+$\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab$\checkmark$\tab$\checkmark$\tab\tab$\checkmark$\tab\tab$\checkmark\\
+$\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab$\overline{x: int \in \Gamma}\text{ }\overline{0: int \in \Gamma}\text{ }\overline{x: int \in \Gamma}\text{ }\overline{1: int \in \Gamma}\\
+$\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab$\overline{\Gamma \vdash x: int}$\tab$\overline{\Gamma \vdash 0: int}\text{ }\overline{\Gamma \vdash x:int}\text{ }\overline{\Gamma \vdash 1: int}\\
+$\tab$ \checkmark$\tab\tab$\checkmark$\tab$(\text{rule for base types }) \checkmark$\tab\tab$\overline{\Gamma \vdash x>0: bool}$\tab$\overline{\Gamma \vdash x = x - 1: int}\\
+\overline{\vdash int: type}\text{ }\overline{\vdash int: type}$\tab$\overline{\vdash dec: int \rightarrow int \Rightarrow int: type}\text{ }\overline{\Gamma \vdash while(x>0) \{ x = x-1\}: int}\\
+\overline{\vdash int \rightarrow int: type}\text{$\tab$}\overline{dec: int \rightarrow int = (x: int) while (x>0) \{ x = x - 1\}: int \rightarrow int}\\
+\overline{((\vdash val dec: int \rightarrow int) = \Gamma) = (x: int) \mapsto while (x>0) \{ x = x - 1}}
+
+\section*{Problem 3.3}
+
+C := A + B\\
+
+\begin{matrix}
+\Gamma \vdash A: type	&	\Gamma \vdash B: type	&	\Gamma \vdash A + B: type\\ \hline
+	&	\Gamma \vdash A + B: C	&	
+\end{matrix} 
+
+\begin{matrix}
+\Gamma \vdash f(A) \rightsquigarrow inj1(A)	&	\Gamma \vdash g(B) \rightsquigarrow inj2(B)	&	\Gamma \vdash (u, f(A), f(B)) \rightsquigarrow C\\ \hline
+	&	\Gamma \vdash A + B \rightsquigarrow (u, f(A), f(B))	&
+\end{matrix}
+
+\end{document}
