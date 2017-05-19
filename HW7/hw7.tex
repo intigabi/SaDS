@@ -1,0 +1,43 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,top=3cm,bottom=3cm,left=3cm,right=3cm]{geometry}
+\usepackage{parskip}		%% blank lines between paragraphs, no indent
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+\begin{document}
+
+\huge \textbf{SaDS HW 7} 
+\large \hfill Inti Mendoza \\
+
+\section*{Problem 7.1}
+
+See \texttt{rsa.cpp}\\
+Due to numbers getting pretty big, choose small n (preferably single digit - I usually use $2$) else you'll be waiting very long for results.
+
+\section*{Problem 7.2}
+
+Let $x = (x_1, \dots, x_n)$ be a sequence s.t. $h(x) = k$. To find the collision select $x' = (x'_1, \dots, x'_{n-1})$ and compute
+$x'_n = (a_n^{-1} \cdot (k - \displaystyle\sum^{n-1}_{i = 1} a_ix'_i))^{1234567}\text{ mod }9993201131$ where $a_i$ are coefficients inside our given hashing function.\\ \\
+$\therefore$ we can obtain $h(x) = h'(x) = k$ and find a collision. Since computational power is not there yet without complex libraries, I cannot obtain concrete results.
+
+\section*{Problem 7.3}
+
+See \texttt{hash.cpp}\\
+Due to exploding huge numbers, your pc might not be able to produce results. I suggest just look at the code and see everything is gucci - good.\\ \\
+\begin{tabular}{l | l}
+	$hash(s)$	&	$s$	\\ \hline
+	\hspace{1 cm}	&	\hspace{1 cm}
+\end{tabular} \\ \\
+{\tiny empty table still a table}
+
+\section*{Problem 7.4}
+
+Phrase: \texttt{ayy lmao}
+
+\end{document}
